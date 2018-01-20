@@ -25,7 +25,7 @@ app.get('/', function (req, res) { //request, response
 // About us
 
 app.get('/about', middleware.requireAuthentication,  function (req, res) {
-	res.send('About Us');
+	res.send('About Us!');
 });
 
 

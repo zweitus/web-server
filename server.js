@@ -7,9 +7,9 @@ var middleware = require('./middleware');
 app.use(middleware.logger); 
 
 
-app.get('/', function (req, res) { //request, response 
-	res.send('Hello Express!');
-});
+// app.get('/', function (req, res) { //request, response 
+// 	res.send('Hello Express!');
+// });
 
 // about 
 // About us
